@@ -1,16 +1,44 @@
-# timetunes
+# 🎵 TimeTunes
 
-A new Flutter project.
+**TimeTunes** est une application mobile multijoueur où les joueurs doivent deviner la date de sortie de chansons en les plaçant correctement sur une ligne du temps. Inspirée du jeu de cartes HITSTER, TimeTunes va plus loin en ajoutant la personnalisation, le jeu à distance et l'intégration de Spotify.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Fonctionnalités principales
 
-A few resources to get you started if this is your first Flutter project:
+- 🎧 Devinez la date de sortie de chansons en les plaçant sur une timeline.
+- 🧠 Testez votre mémoire musicale seul ou entre amis.
+- 📱 Jouez en multijoueur à distance, chacun sur son appareil.
+- 🔍 Choisissez des playlists personnalisées depuis n’importe quelle playlist Spotify publique.
+- 🔄 Les musiques sont jouées directement dans l'app via l'intégration Spotify SDK.
+- 📊 Classement en temps réel et podium en fin de partie.
+- ⚙️ Paramètres personnalisables (URL serveur, port, etc.)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Installation & Lancement
+
+### 1. Prérequis
+
+- Flutter SDK
+- Compte Spotify développeur
+- Android Studio (pour tests)
+- Un serveur TimeTunes
+
+### 2. Configuration
+
+Crée un fichier `.env` :
+
+```env
+SPOTIFY_CLIENT_ID=your_spotify_client_id
+AMQ_USERNAME=guest
+AMQ_PASSWORD=guest
+```
+### 3. Démarrage
+```
+# Installation des packages
+flutter pub get
+
+# Lancement en mode debug
+flutter run
+```
